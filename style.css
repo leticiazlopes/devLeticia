@@ -8,6 +8,7 @@ body {
   color: #d17b9a;
   margin: 0;
   padding: 0;
+  width: 100vh;
 }
 
 #text {
@@ -260,4 +261,36 @@ body {
   color: #020101;
   text-align: center;
   font-size: 15px;
+}
+
+.blog {
+  height: 200px;
+}
+
+@media (max-width: 768px) {
+
+html {
+    width: 30vh;
+}
+  .navbar {
+    display: flex;
+    
+  }
+
+  .navbar a {
+    padding: 8px 16px;
+  }
+
+  .itens-navbar {
+    display: none;
+  }
+
+  
+  .card {
+    flex: 1 1 calc(50% - 20px); /* Dois cards por linha */
+  }
+  
+  #description {
+    width: 70%;
+  }
 }
