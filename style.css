@@ -8,7 +8,6 @@ body {
   color: #d17b9a;
   margin: 0;
   padding: 0;
-  width: 100vh;
 }
 
 #text {
@@ -268,29 +267,29 @@ body {
 }
 
 @media (max-width: 768px) {
-
-html {
-    width: 30vh;
-}
-  .navbar {
-    display: flex;
-    
+  html {
+    width: 100%;
   }
 
-  .navbar a {
-    padding: 8px 16px;
+  body {
+    width: 100%;
   }
 
-  .itens-navbar {
+  .itens-nav {
     display: none;
   }
 
-  
-  .card {
-    flex: 1 1 calc(50% - 20px); /* Dois cards por linha */
+  #text {
+    padding: 30px;
   }
-  
+
   #description {
-    width: 70%;
+    width: 90%;
   }
+
+  .container {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  
 }
